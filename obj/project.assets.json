@@ -1,42 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "CodeHollow.FeedReader/1.2.2": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp2.1/CodeHollow.FeedReader.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/CodeHollow.FeedReader.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "CodeHollow.FeedReader/1.2.2": {
-      "sha512": "1WnSxKMtThjb2GJa7in6DbQA//KXDvZKE6Y/4difA1q8T1OsaM08IoA0oHdoCUpI/I5+1BWZVJSLuYZpwedNdQ==",
-      "type": "package",
-      "path": "codehollow.feedreader/1.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "codehollow.feedreader.1.2.2.nupkg.sha512",
-        "codehollow.feedreader.nuspec",
-        "icon.png",
-        "lib/net452/CodeHollow.FeedReader.dll",
-        "lib/netcoreapp2.1/CodeHollow.FeedReader.dll",
-        "lib/netcoreapp2.1/CodeHollow.FeedReader.xml",
-        "lib/netstandard1.3/CodeHollow.FeedReader.dll",
-        "lib/netstandard1.3/CodeHollow.FeedReader.xml"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "CodeHollow.FeedReader >= 1.2.2"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Vladimir\\.nuget\\packages\\": {},
@@ -45,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\test projects\\csharp\\csharp.csproj",
+      "projectUniqueName": "C:\\test projects\\Advent_Of_Code_2021\\csharp.csproj",
       "projectName": "csharp",
-      "projectPath": "C:\\test projects\\csharp\\csharp.csproj",
+      "projectPath": "C:\\test projects\\Advent_Of_Code_2021\\csharp.csproj",
       "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-      "outputPath": "C:\\test projects\\csharp\\obj\\",
+      "outputPath": "C:\\test projects\\Advent_Of_Code_2021\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -81,12 +50,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "CodeHollow.FeedReader": {
-            "target": "Package",
-            "version": "[1.2.2, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

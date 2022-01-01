@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\test projects\\csharp\\csharp.csproj": {}
+    "C:\\test projects\\Advent_Of_Code_2021\\csharp.csproj": {}
   },
   "projects": {
-    "C:\\test projects\\csharp\\csharp.csproj": {
+    "C:\\test projects\\Advent_Of_Code_2021\\csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\test projects\\csharp\\csharp.csproj",
+        "projectUniqueName": "C:\\test projects\\Advent_Of_Code_2021\\csharp.csproj",
         "projectName": "csharp",
-        "projectPath": "C:\\test projects\\csharp\\csharp.csproj",
+        "projectPath": "C:\\test projects\\Advent_Of_Code_2021\\csharp.csproj",
         "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\test projects\\csharp\\obj\\",
+        "outputPath": "C:\\test projects\\Advent_Of_Code_2021\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,12 +43,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "CodeHollow.FeedReader": {
-              "target": "Package",
-              "version": "[1.2.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

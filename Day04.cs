@@ -10,7 +10,7 @@ namespace AdventOfCode
         }
         public static int Run(bool part1 = true)
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day401.txt").ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day401.txt")).ToList();
 
             var drawList = data.First().Split(new char[] { ',' }).Select(x => Convert.ToInt32(x)).ToList();
             var matrices = new List<Matrix>();

@@ -6,7 +6,7 @@ namespace AdventOfCode
     {
         public static int Run(bool includeDiagonal=false)
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day501.txt").ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day501.txt")).ToList();
 
             var paths = data.Select(x =>
             {

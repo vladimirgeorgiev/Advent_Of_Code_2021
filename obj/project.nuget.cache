@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ePxqq/gnAG3Zkw0jivkOf/dcQZa8TILy2mgjSRq5w0SiRLWWb9GIYb4hpbLgJSBgk4WDReOdqmt2IAEX+EnO/g==",
+  "dgSpecHash": "3vaIqg/VKGQ/3lvzbXqMhSjjNe72H0IarbHYeb43PuW1LqDe4SjTfVHYrYWYZ1K+cOOs3t6TgNJ8w57ZOGC00Q==",
   "success": true,
-  "projectFilePath": "C:\\test projects\\csharp\\csharp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Vladimir\\.nuget\\packages\\codehollow.feedreader\\1.2.2\\codehollow.feedreader.1.2.2.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\test projects\\Advent_Of_Code_2021\\csharp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -6,6 +6,7 @@ namespace AdventOfCode
     {
         public static int Main()
         {
+            Environment.CurrentDirectory = Directory.GetCurrentDirectory();
 
             Console.WriteLine("Advent of Code101: " + AdventOfCode101());
             Console.WriteLine("Advent of Code102: " + AdventOfCode102());
@@ -25,7 +26,7 @@ namespace AdventOfCode
 
         public static int AdventOfCode101()
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day101.txt").Select(x => int.Parse(x)).ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day101.txt")).Select(x => int.Parse(x)).ToList();
 
             int max = data.First();
 
@@ -47,7 +48,7 @@ namespace AdventOfCode
 
         public static int AdventOfCode102()
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day102.txt").Select(x => int.Parse(x)).ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day102.txt")).Select(x => int.Parse(x)).ToList();
             var sumsOfThrees = new List<int>();
             for (int i = 0; i < data.Count; i++)
             {
@@ -74,7 +75,7 @@ namespace AdventOfCode
 
         public static int AdventOfCode201()
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day201.txt").ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day201.txt")).ToList();
             var depth = 0;
             var horizontal = 0;
 
@@ -111,7 +112,7 @@ namespace AdventOfCode
 
         public static int AdventOfCode202()
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day202.txt").ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day202.txt")).ToList();
 
             var depth = 0;
             var horizontal = 0;
@@ -157,7 +158,7 @@ namespace AdventOfCode
 
         public static int AdventOfCode301()
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day301.txt").ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day301.txt")).ToList();
             var width = data.First().Length;
 
             Dictionary<int, List<byte>> storage = new Dictionary<int, List<byte>>();
@@ -194,7 +195,7 @@ namespace AdventOfCode
 
         public static int AdventOfCode302()
         {
-            var data = File.ReadAllLines(@"C:\test projects\csharp\data\day301.txt").ToList();
+            var data = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"data\day301.txt")).ToList();
             var width = data.First().Length;
 
             var storageColumns = new Dictionary<int, List<byte>>();
