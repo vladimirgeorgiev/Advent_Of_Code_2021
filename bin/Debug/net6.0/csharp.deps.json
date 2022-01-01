@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "csharp/1.0.0": {
+        "dependencies": {
+          "CodeHollow.FeedReader": "1.2.2"
+        },
+        "runtime": {
+          "csharp.dll": {}
+        }
+      },
+      "CodeHollow.FeedReader/1.2.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/CodeHollow.FeedReader.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "csharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeHollow.FeedReader/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1WnSxKMtThjb2GJa7in6DbQA//KXDvZKE6Y/4difA1q8T1OsaM08IoA0oHdoCUpI/I5+1BWZVJSLuYZpwedNdQ==",
+      "path": "codehollow.feedreader/1.2.2",
+      "hashPath": "codehollow.feedreader.1.2.2.nupkg.sha512"
+    }
+  }
+}

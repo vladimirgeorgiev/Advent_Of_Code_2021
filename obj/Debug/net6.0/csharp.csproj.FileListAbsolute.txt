@@ -1,0 +1,17 @@
+C:\test projects\csharp\bin\Debug\net6.0\csharp.exe
+C:\test projects\csharp\bin\Debug\net6.0\csharp.deps.json
+C:\test projects\csharp\bin\Debug\net6.0\csharp.runtimeconfig.json
+C:\test projects\csharp\bin\Debug\net6.0\csharp.dll
+C:\test projects\csharp\bin\Debug\net6.0\ref\csharp.dll
+C:\test projects\csharp\bin\Debug\net6.0\csharp.pdb
+C:\test projects\csharp\obj\Debug\net6.0\csharp.csproj.AssemblyReference.cache
+C:\test projects\csharp\obj\Debug\net6.0\csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\test projects\csharp\obj\Debug\net6.0\csharp.AssemblyInfoInputs.cache
+C:\test projects\csharp\obj\Debug\net6.0\csharp.AssemblyInfo.cs
+C:\test projects\csharp\obj\Debug\net6.0\csharp.csproj.CoreCompileInputs.cache
+C:\test projects\csharp\obj\Debug\net6.0\csharp.dll
+C:\test projects\csharp\obj\Debug\net6.0\ref\csharp.dll
+C:\test projects\csharp\obj\Debug\net6.0\csharp.pdb
+C:\test projects\csharp\obj\Debug\net6.0\csharp.genruntimeconfig.cache
+C:\test projects\csharp\bin\Debug\net6.0\CodeHollow.FeedReader.dll
+C:\test projects\csharp\obj\Debug\net6.0\csharp.csproj.CopyComplete
